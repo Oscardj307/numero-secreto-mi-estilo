@@ -94,7 +94,7 @@ button {
     font-weight: 700;
     border: none;
     margin-top: 2rem;
-    margin: 8px;
+    margin: 7%;
 }
 .container__botones:disabled {
     background: #898989;
@@ -115,6 +115,11 @@ footer{
 }
 @media screen and (max-width:480px){ 
 
+    body{
+        align-items: center;
+        justify-content: space-around;
+    }
+
 main {
     height: auto;
     width: 90vw;
@@ -132,16 +137,33 @@ main {
     display: none;
 }
 
+.container__input{
+    margin-left: 10%;
+}
+
+.container__botones{
+    margin-left: 2%;
+}
+
+
+
 
 .container__informaciones h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: x-large;
+    font-size: xxx-large;
     padding-bottom: 2px;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.container__informaciones {
+    margin-bottom: 25%;
 }
 
 .texto__parrafo {
-    font-size: large;
+    font-size: xx-large;
     font-weight: 400;
+    text-align: center;
 }
 
 }
